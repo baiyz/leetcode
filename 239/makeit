@@ -1,0 +1,5 @@
+#!/bin/bash
+g++ -march=westmere -O3 -std=c++14 lc239.cpp -o lc239_g++_AVX
+g++ -march=westmere -O3 -std=c++14 -S lc239.cpp -o lc239_g++_AVX.S
+clang++ -march=native -m64 -O3 -std=c++14 lc239.cpp -o lc239_clang++_AVX2
+clang++ -march=native -m64 -O3 -std=c++14 -S lc239.cpp -o lc239_clang++_AVX2.S

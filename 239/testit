@@ -1,0 +1,3 @@
+#!/bin/bash
+./lc239_g++_AVX &
+./lc239_clang++_AVX2 &
